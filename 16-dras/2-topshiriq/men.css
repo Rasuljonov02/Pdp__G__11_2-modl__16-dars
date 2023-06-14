@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+.futr {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.futr span {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.futr span h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+.futr .apan {
+  display: flex;
+  gap: 60px;
+}
+.futr .apan .sing {
+  padding: 8px 20px;
+  background: #6347eb;
+  border-radius: 12px;
+  color: white;
+}
+.fud {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fud .abloc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.fud .abloc span {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  text-align: start;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.fud .abloc span h4 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.fud .abloc span img {
+  padding: 10px;
+  border-radius: 35%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(161, 128, 128, 0.9) 0%, #ffffff 100%);
+  box-shadow: 0px 8px 24px rgba(200, 96, 61, 0.47);
+}
+.fud .abloc span button {
+  padding: 8px 20px;
+  border: none;
+  background: #6652da;
+  border-radius: 10px;
+}
+.fud .bbloc img {
+  width: 550px;
+}
+.gamil {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 10px;
+
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.49) 0%, rgba(220, 209, 209, 0.79) 100%);
+  backdrop-filter: blur(12px);
+  /* Note: backdrop-filter has minimal browser support */
+  width: 300px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 350px;
+  left: 530px;
+}
+body {
+  background: #f3f1fd;
+}
+.studint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.49) 0%, rgba(220, 209, 209, 0.79) 100%);
+  backdrop-filter: blur(12px);
+  /* Note: backdrop-filter has minimal browser support */
+  width: 200px;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 360px;
+  left: 1100px;
+}
+.odamlarhon {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.49) 0%, rgba(207, 198, 198, 0.85) 100%);
+
+  box-shadow: 0px 8px 24px rgba(31, 31, 51, 0.06);
+  border-radius: 16px;
+  position: absolute;
+  bottom: 100px;
+  left: 650px;
+  padding: 10px;
+}
+.odamlarhon span {
+  display: flex;
+  align-items: center;
+}
+.odamlarhon .b1 {
+  position: relative;
+  right: 18px;
+}
+.odamlarhon .b2 {
+  position: relative;
+  right: 30px;
+}
+.odamlarhon .b3 {
+  position: relative;
+  right: 45px;
+  padding: 10px;
+  border-radius: 50%;
+  background: #efefef;
+  border: 2px solid #ffffff;
+}
+.odamlarhon span img {
+  height: 50px;
+}
+.odamlarhon span p {
+  font-size: 20px;
+}
+.develeper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.49) 0%, rgba(207, 198, 198, 0.85) 100%);
+
+  box-shadow: 0px 8px 24px rgba(31, 31, 51, 0.06);
+  border-radius: 16px;
+  position: absolute;
+  bottom: 40px;
+  left: 1060px;
+  padding: 10px;
+}
+.develeper span {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.develeper button {
+  padding: 5px 15px;
+  border: none;
+  background: rgba(102, 82, 218, 0.88);
+  border-radius: 2px;
+  color: #ffffff;
+}
+.dffd {
+  display: flex;
+  justify-content: center;
+}
+.eten {
+  display: flex;
+
+  background: #ebe6e6;
+  box-shadow: 4px 1px 22px 2px rgba(102, 82, 218, 0.298);
+  border-radius: 15px;
+  width: 1000px;
+  height: 80px;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.eten span {
+  display: flex;
+  align-items: center;
+}
+.qqw {
+  margin-top: 100px;
+  text-align: center;
+}
+.logotiplaruchun {
+  display: flex;
+  justify-content: space-evenly;
+}
+.chikki {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.chikki h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: capitalize;
+}
+.chikki hr {
+  width: 60px;
+  background: rgb(108, 37, 156);
+  background: linear-gradient(90deg, rgba(108, 37, 156, 1) 31%, rgba(179, 160, 194, 1) 50%, rgba(149, 11, 167, 1) 73%);
+  border-radius: 3px;
+  padding: 2px;
+}
+.it {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.it .ux {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: #ffffff;
+  box-shadow: 0px 2px 20px rgba(31, 31, 51, 0.6);
+  border-radius: 20px;
+  width: 180px;
+  padding: 20px 10px;
+}
+.it .uxx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: linear-gradient(90.26deg, #f99462 0.21%, rgba(249, 148, 98, 0.65) 97.38%);
+  box-shadow: 0px 2px 20px rgba(31, 31, 51, 0.72);
+  border-radius: 20px;
+  width: 180px;
+  padding: 20px 10px;
+}
+.mos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mos span {
+  display: flex;
+  gap: 5rem;
+  margin-top: 50px;
+}
+
+.tepadh {
+  color: #f99462;
+}
+.kattasi {
+  display: flex;
+  justify-content: space-evenly;
+}
+.salkatta {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #ffffff;
+  /* padding: 10px; */
+
+  box-shadow: 0px 8px 24px rgba(31, 31, 51, 0.615);
+  border-radius: 5px;
+}
+.salkatta .pad {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  height: 200px;
+}
+.salkatta div {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.salkatta span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-between;
+}
+.salkatta span .l {
+  background: linear-gradient(90.32deg, rgba(255, 213, 128, 0.532) 0.26%, rgba(255, 238, 87, 0.48) 104.75%);
+  border-radius: 2px;
+  padding: 8px;
+}
+.salkatta .webhon {
+  background: linear-gradient(90.26deg, rgba(170, 128, 255, 0.67) 0.21%, rgba(160, 113, 255, 0.579) 97.38%);
+  border-radius: 2px;
+  padding: 8px;
+}
+.salkatta .webhonn {
+  background: linear-gradient(90.26deg, rgba(71, 194, 255, 0.653) 0.21%, rgba(99, 202, 254, 0.63) 97.38%);
+  border-radius: 2px;
+  padding: 8px;
+}
+.salkatta .webhonnn {
+  background: linear-gradient(90.26deg, rgba(121, 226, 138, 0.697) 0.21%, rgba(121, 226, 177, 0.669) 97.38%);
+  border-radius: 2px;
+  padding: 8px;
+}
+.z {
+  text-align: center;
+}
+.z p {
+  width: 130px;
+  margin-left: 600px;
+  background: rgb(98, 83, 181);
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: #ffffff;
+}
+.from {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.from .id {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.from .id span button {
+  padding: 8px 20px;
+  border: none;
+  background: #6652da;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.from .id span a {
+  padding: 8px 30px;
+  border: none;
+
+  border-radius: 10px;
+}
+.from .didi {
+}
+.id h1 p {
+  color: #f99462;
+}
+.from p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+.from h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: capitalize;
+}
+.from .h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: capitalize;
+}
+.from .didi img {
+  width: 580px;
+}
+.watat {
+  text-align: center;
+}
+.watat .aboutus {
+  color: #b14a16;
+}
+.alex {
+  display: grid;
+  place-content: center;
+}
+.sanjey {
+  width: 1200px;
+  height: 200px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.sanjey .alisa {
+  display: flex;
+  align-items: center;
+  background: #feffff;
+
+  box-shadow: 0px 8px 24px rgba(31, 31, 51, 0.6);
+  border-radius: 10px;
+}
+.sanjey .alisa .hotel span {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.hotel p {
+  padding: 7px 0;
+}
+.fffd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.fgbddrgb {
+  background-image: url(./icon/african-guy-with-laptop-thinking-sitting-in-chair--7ZEVNTA\ 1.png);
+  height: 430px;
+}
+
+.ynbgnbv span {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  margin-left: 60%;
+  justify-content: center;
+}
+.ynbgnbv span h1 {
+  margin-top: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 46px;
+}
+.ynbgnbv span button {
+  padding: 8px 20px;
+  background: #6652da;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+}
+.servisese {
+  display: flex;
+  justify-content: space-evenly;
+  background: #efecec;
+  height: 250px;
+  align-items: center;
+}
+.servisese span {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.servisese span .intrnet {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+.okijuhbgvfcd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35rem;
+}
+.okijuhbgvfcd span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
